@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -13,10 +14,19 @@ body {
 /* Header */
 
 .hed {
-    min-height: 70px;
-    background-color: yellow;
+    max-height: 70px;
+    background-color: yellow; 
+    padding: 10px; 
 }
 
+h1 {
+    display: inline-block; 
+    vertical-align: middle;
+}
+
+img {
+    vertical-align: middle;
+}
 /* Main Content */ 
 
 #buttons-container {
@@ -35,6 +45,7 @@ body {
 .main-cont {
     width: 600px;
     min-height: 600px;
+    max-height: fit-content; 
     margin: 60px auto;
     background-color: green;
 }
