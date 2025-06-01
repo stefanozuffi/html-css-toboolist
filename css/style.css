@@ -3,7 +3,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
     font-family: "Andale Mono", "Courier New", Courier, monospace; 
 }
 
@@ -24,6 +25,7 @@ h1 {
     display: inline-block; 
     vertical-align: middle;
     font-weight: 400;
+    
 }
 
 img {
@@ -39,19 +41,18 @@ img {
     min-height: 600px;
     max-height: fit-content; 
     margin: 60px auto;
-    background-color: green;
+    
 }
 
 
 /* First part -- bottoni */
 
 #buttons-container {
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     min-height: 40px; 
-    background-color: white;
-     
-    
-} 
+    background-color: yellow;  
+    border-radius: 4px 4px 0px 0px; 
+}  
 
 .bott {
     margin-top: 10px; 
@@ -82,13 +83,19 @@ img {
 
 /* Lists */ 
 /* General */
+
+.list-container {
+    border-radius: 0px 0px 4px 4px; 
+    background-color: white; 
+    padding-bottom: 40px;
+}
+
 h3 {
     display: inline-block;
     margin: 5px;
 }
 
-.list-section {
-    background-color: azure; 
+.list-section { 
     min-height: 30px; 
     padding-left: 40px;
 }
@@ -98,7 +105,7 @@ ul {
 }
 
 li {
-    margin-top: 5px; 
+    margin-top: 10px; 
     margin-bottom: 20px; 
 }
 
@@ -155,7 +162,7 @@ li {
 /* Tags */
 
 .cat-label { 
-    color: white;
+   color: white;
    font-size: 11px; 
    padding: 8px 12px; 
    border-radius: 15px; 
