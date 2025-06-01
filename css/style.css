@@ -128,10 +128,34 @@ li {
     color: red;
     border-color: red;
  }
+
+ .azzurro {
+    background-color: rgb(98, 169, 228); 
+ }
+
+ .viola {
+    background-color: rgb(149, 116, 222); 
+ }
+
+ .verde-acq {
+    background-color: rgb(123, 190, 170); 
+ }
+
+ .arancio {
+    background-color: rgb(230, 161, 75); 
+ }
+
+ .fucsia{
+    background-color: rgb(202, 166, 158); 
+ }
+
+ .mil-green {
+   background-color: rgb(181, 200, 73); 
+ }
 /* Tags */
 
-.cat-label {
-   background-color: aqua; 
+.cat-label { 
+    color: white;
    font-size: 11px; 
    padding: 8px 12px; 
    border-radius: 15px; 
