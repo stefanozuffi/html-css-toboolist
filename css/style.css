@@ -81,14 +81,59 @@ img {
 
 
 /* Lists */ 
+/* General */
+h3 {
+    display: inline-block;
+    margin: 5px;
+}
 
 .list-section {
     background-color: azure; 
     min-height: 30px; 
+    padding-left: 40px;
 }
-
-
 
 ul {
     list-style-type: none;
+}
+
+li {
+    margin-top: 5px; 
+    margin-bottom: 20px; 
+}
+
+.task-state {
+    display: inline-block;
+    border: 1px solid; 
+    border-radius: 50%;
+    width: 18px;
+    height: 18px; 
+    vertical-align: middle; 
+    padding-left: 3px;
+    
+}
+
+ /* Specifics */
+
+ #new-task { 
+    padding-top: 20px; 
+ }
+
+ .check {
+     color: green;
+     border-color: green;
+ }
+
+ .cross {
+    color: red;
+    border-color: red;
+ }
+/* Tags */
+
+.cat-label {
+   background-color: aqua; 
+   font-size: 11px; 
+   padding: 8px 12px; 
+   border-radius: 15px; 
+   border: 0px; 
 }
