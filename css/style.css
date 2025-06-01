@@ -1,0 +1,40 @@
+/* Generals */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: pink; 
+}
+
+/* Header */
+
+.hed {
+    min-height: 70px;
+    background-color: yellow;
+}
+
+/* Main Content */ 
+
+#buttons-container {
+    margin-bottom: 5px;
+    min-height: 40px; 
+    /* width: 600px; */ 
+    background-color: aqua; 
+    
+} 
+
+.list-section {
+    background-color: azure; 
+    min-height: 30px; 
+}
+
+.main-cont {
+    width: 600px;
+    min-height: 600px;
+    margin: 60px auto;
+    background-color: green;
+}
