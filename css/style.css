@@ -4,12 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Andale Mono", "Courier New", Courier, monospace; 
 }
 
 body {
     background-color: pink; 
 }
+
 
 /* Header */
 
@@ -22,25 +23,16 @@ body {
 h1 {
     display: inline-block; 
     vertical-align: middle;
+    font-weight: 400;
 }
 
 img {
     vertical-align: middle;
 }
+
+
+
 /* Main Content */ 
-
-#buttons-container {
-    margin-bottom: 5px;
-    min-height: 40px; 
-    /* width: 600px; */ 
-    background-color: aqua; 
-    
-} 
-
-.list-section {
-    background-color: azure; 
-    min-height: 30px; 
-}
 
 .main-cont {
     width: 600px;
@@ -48,4 +40,55 @@ img {
     max-height: fit-content; 
     margin: 60px auto;
     background-color: green;
+}
+
+
+/* First part -- bottoni */
+
+#buttons-container {
+    margin-bottom: 5px;
+    min-height: 40px; 
+    background-color: white;
+     
+    
+} 
+
+.bott {
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    padding: 8px; 
+    padding-left: 14px;
+    padding-right: 14px; 
+    font-weight: 500;
+    border-radius: 5px; 
+    
+}
+
+#task-bott {
+    margin-left: 60px; 
+    color: white;
+    background-color: rgb(99, 170, 236);
+    border-color: rgb(99, 170, 236);
+}
+
+#section-bott {
+   color: grey;
+   border-color: #f5f5f5; 
+   background-color: white; 
+}
+
+
+
+
+/* Lists */ 
+
+.list-section {
+    background-color: azure; 
+    min-height: 30px; 
+}
+
+
+
+ul {
+    list-style-type: none;
 }

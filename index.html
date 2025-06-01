@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Toboolist</title> 
 </head>
+
 <body>
+
     <!-- Header -->
     <header>
         <div class="hed">
@@ -14,20 +17,69 @@
           <h1> Toboolist </h1> 
         </div>
     </header>
+
+
   <!-- Main Content -->
+
+
     <main>
         <div class="main-cont">
              <div id="buttons-container"> 
-
+                  <button class="bott" id="task-bott"> Add Task </button>
+                        
+                  <button class="bott" id="section-bott"> Add Section</button>
              </div>
              <div class="list-section" id="new-task">
-     
+                 <h3> New Task </h3>
+                 <ul class="list">
+                    <li>
+                        <span class="task-state check"> &check; </span> Quarterly Newsletter <span class="cat-label"></span>
+                    </li>
+        
+                 </ul>
              </div>
+
              <div class="list-section" id="today">
+                <h3> Today </h3>
+                <ul class="list">
+                   <li>
+                     <span class="task-state check"> &check;</span> Some text <span class="cat-label"></span>
+                   </li>
 
+                   <li>
+                     <span class="task-state check"> &check;</span> Some text <span class="cat-label"></span>
+                   </li>
+
+                   <li>
+                     <span class="task-state cross"> &cross;</span> Some text <span class="cat-label"></span>
+                   </li>
+
+                   <li>
+                     <span class="task-state check">&check;</span> Some text <span class="cat-label"></span>
+                   </li>
+                </ul>
+    
              </div>
-             <div class="list-section" id="upcoming">
 
+             <div class="list-section" id="upcoming">
+                <h3> Upcoming </h3> 
+                <ul class="list">
+                   <li>
+                     <span class="task-state cross"> &cross;</span> Some text <span class="cat-label"></span>
+                   </li>
+
+                   <li>
+                     <span class="task-state check">&check;</span> Some text <span class="cat-label"></span>
+                   </li>
+
+                   <li>
+                     <span class="task-state check">&check;</span> Some text <span class="cat-label"></span>
+                   </li>
+
+                   <li>
+                     <span class="task-state check">&check;</span> Some text <span class="cat-label"></span>
+                   </li>
+                </ul>
              </div>
         </div>
     </main>
